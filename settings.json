@@ -1,0 +1,70 @@
+{
+  // Workbench
+  "workbench.iconTheme": "symbols",
+  "workbench.editor.labelFormat": "short",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.colorTheme": "Min Dark",
+  "workbench.layoutControl.enabled": false,
+  // Editor settings
+  "window.commandCenter": false,
+  "editor.wordWrap": "on",
+  "editor.fontSize": 12,
+  "editor.lineHeight": 20,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "JetBrains Mono, Fira Code",
+  "editor.fontLigatures": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.parameterHints.enabled": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.semanticHighlighting.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.inlineSuggest.enabled": true,
+  // VSCode stuff
+  "breadcrumbs.enabled": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.fileNesting.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  // Emmet
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // Extensions
+  "extensions.ignoreRecommendations": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false
+  },
+  //GitLens
+  "gitlens.defaultDateFormat": null,
+  "gitlens.hovers.currentLine.over": "line",
+  //Live Server
+  "liveServer.settings.donotShowInfoMsg": true,
+  //Git
+  "git.confirmSync": false,
+  //Other
+  "redhat.telemetry.enabled": false,
+  "symbols.hidesExplorerArrows": false,
+}
